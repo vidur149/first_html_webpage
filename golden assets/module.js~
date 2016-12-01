@@ -1,0 +1,53 @@
+var scrollInPage=(function()
+{
+	function position(ele)
+		{
+			for(var h=0;ele!=null;h += ele.offsetTop,ele=ele.offsetParent);
+			return{
+					y:h
+				};
+		}
+	function scrollWhenClicked(y)
+	{	
+		var myInterval;
+		function scroll()
+		{
+			if(window.scrollY===y)
+				window.clearInterval(myInterval);
+			else if(window.scrollY>y)
+			{
+				window.scrollTo(0,window.scrollY-2);
+			}
+			else if(window.scrollY<y)
+			{				
+				window.scrollTo(0,window.scrollY+2);
+			}	
+		}
+		myInterval=setInterval(scroll,1);
+	}
+	return({
+			init:function(q)
+				{
+					var match=document.querySelectorAll(q);
+					var pos=[];
+					var href;
+					for(var i=0;i<match.length;i++)
+					{
+						href=match[i].getAttribute("href");
+						var id=href.substring(1);
+						var ele=document.getElementById(id);
+						pos[i]=position(ele);
+						//console.log(pos[i].y);
+						match[i].addEventListener('click',function(e){
+						e.preventDefault();
+						scrollWhenClicked(pos[i].y);
+						});
+						//console.log(id);
+						//console.log(ele);
+						//console.log(pos[i]);	
+					}
+					
+				}		
+		});
+
+})();

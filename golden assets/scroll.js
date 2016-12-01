@@ -1,0 +1,28 @@
+var scrollToTop=(function()
+{
+
+	function scrollWhenCLicked()
+	{
+		var myInterval;
+		function scroll()
+		{
+			if(window.scrollY===0)
+			{
+				clearInterval(myInterval);
+			}	
+			else
+			window.scrollTo(0,window.scrollY-10);
+		}
+		myInterval=setInterval(scroll,5);
+	}
+	return({
+			 initDiv: function(id)
+			{
+           			var el = document.getElementById(id);
+				el.style.cursor='pointer';
+           	 		el.addEventListener('click', scrollWhenCLicked);
+			}
+	
+		});
+
+})();

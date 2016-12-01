@@ -1,0 +1,4 @@
+1) When i click on an element , it scrolls but when it reaches it starts vibrating.I know the reason for it but dont know how to solve it.
+	the reason is that window.scrollY is never exactly equal to y and so the if else statement continues.
+
+2) When i call the scroll function with other ids it doesnt work.

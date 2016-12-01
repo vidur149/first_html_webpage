@@ -1,0 +1,273 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="indexv3.css">
+		<link rel="stylesheet" href="../font-awesome-4.3.0/css/font.css">
+		<script src="scroll.js"></script>
+		<script src="module1.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Golden Assets</title>
+	</head>
+	<body>
+		<main>
+			<section id="intro">
+				<header>
+						<a href="{% url 'main' %}"><img id ='logo' src="image/main-logo.png" width=79px height=28px></a>
+						<nav id="list">	
+							<ul>
+								<li><a href="#intro">HOME</a></li>
+								<li><a href="#services">SERVICES</a></li>
+								<li><a href="#port">PORTFOLIO</a></li>
+								<li><a href="#about">ABOUT</a></li>
+								<li><a href="#contact">CONTACT</a></li>
+							</ul>
+							<div id="options"><a href="#list"><i class="fa fa-bars"></i></a></div>
+							<div id="close"><a href="#intro"><i class="fa fa-times"></i></a></div>
+						</nav>	
+				</header>
+				<div>
+					<h1>Welcome To Our Studio!</h1>
+					<div><h1>IT'S NICE TO MEET YOU</h1></div>
+					<a target="_blank" href="https://www.facebook.com/vidursingla" id="a">TELL ME MORE</a>
+				</div>
+			</section>
+			<section id="services">
+				<header>
+					<h1>SERVICES</h1>
+					<p>proin iaculis purus consequant sem cure.</p>
+				</header>
+				<div>
+					<div class="service">
+						<div><img src="image/e-commerce.png"></div>
+						<h3>E-Commerce</h3>
+						<p>Proin iaculis tortor et risus. Mauris justo nunc, interdum quis, malesuada sed, condimentum ut, arcu. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+					</div>
+					<div class="service">
+						<div><img src="image/responsive.png"></div>
+						<h3>Responsive Web</h3>
+						<p>Proin iaculis tortor et risus. Mauris justo nunc, interdum quis, malesuada sed, condimentum ut, arcu. Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+					</div>
+					<div class="service">
+						<div><img src="image/web-security.png"></div>
+						<h3>Web Security</h3>
+						<p>Proin iaculis tortor et risus. Mauris justo nunc, interdum quis, malesuada sed, condimentum ut, arcu. Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+					</div>
+				</div>
+			</section>
+			<section id="port">
+				<div>
+					<div class="light" id="one">
+							<div>
+								<img src="image/ebony-ivory.jpg">
+								<a href="#port"><i class="fa fa-times"></i></a>	
+							</div>			
+					</div>
+					<div class="light" id="two">
+							<div><img src="image/smart-stationary.jpg">
+							<a href="#port"><i class="fa fa-times"></i></a></div>
+					</div>
+					<div class="light" id="three">
+							<div><img src="image/portfolio-3.jpg">
+							<a href="#port"><i class="fa fa-times"></i></a></div>
+					</div>
+					<div class="light" id="four">
+							<div><img src="image/portfolio-5.jpg">
+							<a href="#port"><i class="fa fa-times"></i></a></div>
+					</div>
+					<div class="light" id="five">
+							<div><img src="image/portfolio-4.jpg">
+							<a href="#port"><i class="fa fa-times"></i></a></div>
+					</div>
+					<div class="light" id="six">
+							<div><img src="image/portfolio-6.jpg">
+							<a href="#port"><i class="fa fa-times"></i></a></div>
+					</div>
+					
+					<header>
+						<h1>OUR PORTFOLIO</h1>
+						<p>proin iaculis purus consequant sem cure.</p>
+					</header>
+					<div id="gallery">
+						<div class="port1">
+							<a href="#one"><img src="image/ebony-ivory.jpg"></a>
+							<h3>Ebony & Ivory</h3>
+							<p>Branding</p>
+						</div>
+						<div class="port1">
+							<a href="#two"><img src="image/smart-stationary.jpg"></a>
+							<h3>Smart Stationary</h3>
+							<p>Print Design</p>
+						</div>
+						<div class="port1">
+							<a href="#three"><img src="image/portfolio-3.jpg"></a>
+							<h3>Clever Poster</h3>
+							<p>Print Design</p>
+						</div>
+						<div class="port1">
+							<a href ="#four"><img src="image/portfolio-5.jpg"></a>
+							<h3>Vinyl Record</h3>
+							<p>Product Mock-Up</p>
+						</div>
+						<div class="port1">
+							<a href="#five"><img src="image/portfolio-4.jpg"></a>
+							<h3>Treehouse Template</h3>
+							<p>Web Design</p>
+						</div>
+						<div class="port1">
+							<a href="#six"><img src="image/portfolio-6.jpg"></a>
+							<h3>Burned Logo</h3>
+							<p>Branding</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="about">
+				<header>
+					<h1>ABOUT US</h1>
+					<p>proin iaculis purus consequant sem cure.</p>
+				</header>
+				<div id="cont">
+					<div class="conta">
+						<div class="one">
+							<h3>JULY 2010</h3>
+							<h4>Our Humble Beginnings</h4>	
+							<p>Proin iaculis tortor et risus. Mauris justo nunc, interdum quis, malesuada sed, condimentum ut, arcu. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam imperdiet justo at mi. Proin iaculis tortor et risus. Proin iaculis tortor et risus.</p>
+						</div>					
+						<div class="two"><img src="image/about-us-1.jpg" class="img"><div class="demark"><div></div></div></div>
+						<div class="three"></div>
+					</div>
+			
+					<div class="conta">				
+						<div class="one">
+							<h3>JANUARY 2011</h3>
+							<h4>Facing Startup Battles</h4>	
+							<p>Proin iaculis tortor et risus. Mauris justo nunc, interdum quis, malesuada sed, condimentum ut, arcu. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam imperdiet justo at mi. Proin iaculis tortor et risus. Proin iaculis tortor et risus.</p>
+						</div>
+						<div class="two"><img src="image/about-us-2.jpg" class="img"><div class="demark"><div></div></div></div>
+						<div class="three"></div>
+					</div>
+					
+					<div class="conta">
+						<div class="one">
+							<h3>DECEMBER 2012</h3>
+							<h4>Enter The Dark Days</h4>	
+							<p>Proin iaculis tortor et risus. Mauris justo nunc, interdum quis, malesuada sed, condimentum ut, arcu. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam imperdiet justo at mi. Proin iaculis tortor et risus. Proin iaculis tortor et risus.</p>
+						</div>					
+						<div class="two"><img src="image/about-us-3.jpg" class="img"><div class="demark"><div></div></div></div>
+						<div class="three"></div>
+					</div>
+					
+					<div class="conta">				
+						<div class="one">
+						<h3>FEBRUARY 2014</h3>
+						<h4>Our Triumph</h4>	
+						<p>Proin iaculis tortor et risus. Mauris justo nunc, interdum quis, malesuada sed, condimentum ut, arcu. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam imperdiet justo at mi. Proin iaculis tortor et risus. Proin iaculis tortor et risus.</p>
+						</div>
+						<div class="two"><img src="image/about-us-4.jpg" class="img"><div class="demark"><div></div></div></div>
+						<div class="three"></div>
+					</div>
+					
+					<div class="conta">
+						<div class="one"></div>
+						<div class="two"><img src="image/about-last.png"></div>
+						<div class="three"></div>
+					</div>
+				</div>
+			</section>
+			<section id="team">
+				<div>
+					<header>
+						<h1>OUR AMAZING TEAM</h1>
+						<p>proin iaculis purus consequant sem cure.</p>
+					</header>
+					<div>
+						<div class="team1">
+							<img class="timg" src="image/team-member1.jpg">
+							<h3>Kimberly Thompson</h3>
+							<p>Marketer</p>
+							<div>
+								<i class="fa fa-twitter-square fa-2x"></i>
+								<i class="fa fa-facebook-official fa-2x"></i>
+								<i class="fa fa-pinterest-square fa-2x"></i>
+							</div>
+							<div class="content">
+								<p>Proin iaculis tortor et risus. Mauris justo nunc, interdum quis, malesuada sed, condimentum ut, arcu. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+								<div class="point"></div>
+							</div>	
+						</div>
+						<div class="team1">
+							<img class="timg" src ="image/team-member2.jpg">
+							<h3>Rico Massimo</h3>
+							<p>Coder</p>
+							<div>
+								<i class="fa fa-twitter-square fa-2x"></i>	
+								<i class="fa fa-facebook-official fa-2x"></i>
+								<i class="fa fa-google-plus-square fa-2x"></i>
+							</div>
+							<div class="content">
+								<p>Proin iaculis tortor et risus. Mauris justo nunc, interdum quis, malesuada sed, condimentum ut, arcu. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+								<div class="point"></div>
+							</div>
+						</div>
+						<div class="team1">
+							<img class="timg" src="image/team-member3.jpg">
+							<h3>Uku Mason</h3>
+							<p>Graphic Desginer</p>
+							<div>			
+								<i class="fa fa-facebook-official fa-2x"></i>
+								<i class="fa fa-pinterest-square fa-2x"></i>
+							</div>
+							<div class="content">
+								<p>Proin iaculis tortor et risus. Mauris justo nunc, interdum quis, malesuada sed, condimentum ut, arcu. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+								<div class="point"></div>
+							</div>
+						</div>
+					</div>
+					<p>Proin iaculis tortor et risus. Mauris justo nunc, interdum quis, malesuada sed, condimentum ut, arcu. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam imperdiet justo at mi.</p>
+				</div>			
+			</section>
+			<section id="add">
+				<ul>
+					<li><img src="image/logo-1.jpg"></li>
+					<li><img src="image/logo-2.jpg"></li>
+					<li><img src="image/logo-3.jpg"></li>
+					<li><img src="image/logo-4.jpg"></li>
+				</ul>
+			</section>
+			<section id="contact">
+				<div>
+					<header>
+						<h1>CONTACT US</h1>
+						<p>proin iaculis purus consequant sem cure.</p>
+					</header>
+					<form id="form">
+						<div>
+							<input type="text" placeholder="  YOUR NAME *"><br>
+							<input type="text" placeholder="  YOUR E-MAIL *"><br>
+							<input type="text" placeholder="  SUBJECT"><br>
+						</div>
+						<textarea palceholder=" YOUR MESSAGE *"></textarea>
+						<input type="submit" value="SEND MESSAGE" class="submit">
+					</form>
+				</div>
+			</section>
+			<footer>
+				<div>
+					<p>Copyright 2014 FreebiesXpress.com</p>
+					<div><i class="fa fa-twitter-square fa-2x"></i>					
+					<i class="fa fa-facebook-official fa-2x"></i>
+					<i class="fa fa-google-plus-square fa-2x"></i>
+					<i class="fa fa-pinterest-square fa-2x"></i></div>
+					<div id="top"><h3>Go to Top</h3></div>
+				</div>
+			</footer>
+			<script>
+				function init()
+				{
+					scrollToTop.initDiv('top');
+					scrollInPage.init("#list > ul a");
+				}
+				window.addEventListener('load',init);
+			</script>
+		</main>
+	</body>
+</html>

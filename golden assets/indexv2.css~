@@ -1,0 +1,419 @@
+
+#intro
+{
+	background-image:url("image/header-bg.jpg");
+	background-size:100% 100%;
+	opacity:0.9;
+	background-repeat:no-repeat;
+}
+
+#intro > header
+{
+	display:flex;
+	justify-content:space-around;
+	padding: 35px 0 180px 0;
+}
+#intro > header >nav
+{
+	width:35%;
+}
+#intro > header > nav > ul
+{
+	display:flex;
+	justify-content:space-between;
+	list-style:none;
+}
+
+li > a
+{
+	text-decoration:none;
+	color:white;
+}
+
+#intro a:hover
+{
+	color:black;
+}
+
+#intro > div {
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items: center;
+	width:100%;
+	padding-bottom:10%;
+}
+#intro > div > h1 {
+	color:white;
+	font-size:30px;
+	font-style:italic;
+}
+
+#intro > div > div > h1{
+	font-size:65px;
+	color:white;
+	margin:9% 0%;	
+}
+#a
+{
+	color:white;
+	background-color:#FED136;
+	padding:10px 15px;
+	text-decoration:none;
+	font-weight:bold;
+	border-radius:2px;
+}
+
+#services > div
+{
+	display:flex;
+	justify-content: space-between;
+	align-items:center;
+	width: 100%;
+}
+#services
+{
+	margin:5% 10%;
+}
+#services > header
+{
+	padding-bottom:4%;
+}
+.service
+{
+	width:33%;
+	display: flex;	
+	justify-content: center;
+	flex-direction: column;
+	align-items:center;
+}
+
+#services h1
+{
+	text-align:center;
+	font-family:"Montserrat Bold"
+}
+h3
+{
+	text-align:center;
+	font-family:"Montserrat Bold"
+}
+h1{
+	font-family:"Montserrat bold";
+	font-size:40pt;
+	text-align:center;
+	margin:auto;
+}
+
+p{
+	font-family:"Roboto Slab Regular ";
+	font-size:14px;
+	text-align:center;
+	color:#999;
+}
+
+#port
+{	
+	background-color:#F7F7F7;
+	position:relative;
+}
+#port > div
+{
+	padding:5% 10%;
+}
+
+#gallery
+{
+	display:flex;
+	justify-content:space-between;
+	align-content:space-between;
+	flex-wrap:wrap;
+}
+
+.port1
+{
+	width:30%;
+	background-color:white;
+	overflow:auto;
+	margin-bottom:4%;
+	position:relative;
+}
+
+.port1  img
+{
+	width:100%;
+	height:315px;
+}
+
+#about
+{
+	margin:5% 10%;
+}
+
+
+
+#about img
+{
+	height:200px;
+	width:200px;
+	border-radius:100px;
+	border-color: #CDC4C6;
+	border-style: solid;
+	border-width: thick;
+	margin:0% 6%;
+	background-color: #FED136;
+	box-sizing:border-box;
+}
+#a1
+{
+	padding:200px;
+	border-radius:100px;
+	border-color: #CDC4C6;
+	border-style: solid;
+	border-width: thick;
+	word-break: break-all;
+}
+
+#add
+{
+	margin:5% 10%;	
+}
+
+#add ul
+{
+	list-style:none;
+	display:flex;
+	justify-content:space-between;
+}
+#add > ul > li
+{
+	flex-basis:16%;
+}
+
+#contact
+{
+	background-image:url("image/contact-us-bg.jpg");
+	background-repeat:no-repeat;
+}
+#contact > div
+{
+	padding:5% 10%;
+}
+#contact > div > header
+{
+	padding-bottom: 5%;
+}
+#contact h1
+{
+	color:white;
+}
+#contact > header
+{
+	
+}
+
+#form
+{
+	display:flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: space-around;
+}
+#form > div
+{
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+	padding-right: 4%;
+	width: 41%;
+	align-items: stretch;
+}
+textarea
+{
+	width: 40%;
+    	height: 39%;
+	border-radius:4px;
+	color: #999;
+	line-height: 5;
+}
+.submit
+{
+	background-color:#FED136;
+	padding: 2% 5%;
+	border-style:none;
+	font-weight:bold;
+	color:white;	
+	border-radius:4px;
+}
+
+input[type="text"] 
+{   	
+	height:12%;
+	border-radius:4px;
+	border:none;
+}
+
+#team
+{	
+	background-color:#F7F7F7;
+}
+
+#team > div
+{
+	padding:5% 10%;
+}
+#team > div > div
+{
+	display:flex;
+	justify-content:space-between;
+	align-content:space-between;
+	flex-wrap:wrap;
+}
+
+.timg
+{
+	height:200px;
+	width:200px;
+	border-radius:100px;
+	border-color: #CDC4C6;
+	border-style: solid;
+	border-width: thick;
+	margin:4% 6%;
+}
+
+header
+{
+	padding-bottom:5%;
+}
+footer
+{
+	margin:1% 10%;
+}
+footer > div
+{
+	display:flex;
+	justify-content:space-around;	
+}
+
+footer > div > img
+{
+	width:20%;	
+}
+
+header p
+{
+	font-style:italic;
+	font-size:16px;
+}
+
+.demark {
+    display: flex;
+    justify-content: center;
+    height: 17%;
+	width:100%;
+	}
+
+.demark > div
+{
+	width:1px;
+	background-color:darkgrey;
+}
+
+.conta
+{
+	display:flex;
+	justify-content:space-between;
+}
+
+.one
+{
+	width:35%;
+	text-align:right;
+}
+
+.two
+{
+	width:23%;
+}
+
+.three
+{
+	width:35%;
+}
+#cont .conta:nth-child(4n-1) .one
+{
+	order:3;
+	text-align:left
+}
+#cont .conta:nth-child(4n-1) .two
+{
+	order:2;
+}
+
+#cont .conta:nth-child(4n-1) .three
+{
+	order:1;
+}
+
+.one > h3
+{
+	text-align:right;
+} 
+.one > p
+{
+	text-align:right;
+} 
+#cont .conta:nth-child(4n-1) .one > h3
+{
+	text-align:left;
+}
+#cont .conta:nth-child(4n-1) .one > p
+{
+	text-align:left;
+}
+.light
+{	
+	display:none;
+	position:absolute;
+}
+
+.light > div > img
+{
+	width: 397px;
+	height: 384px;
+	vertical-align: middle;
+	margin-left: 34%;
+	margin-top: 32%;
+	border-style: double;
+	/* box-sizing: border-box; */
+	border-width: 5px;
+}
+.light > div
+{
+	position:relative;
+}
+.light:target
+{	
+	display:block;
+	z-index:2;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(11, 11, 11, 0.89);
+}
+
+.light > a > img
+{
+
+	width:2%;
+	height: 2%;
+	left: 63%;
+	position: absolute;
+	top: 35%;
+}
+
+div
+{
+	text-align:center;
+}
